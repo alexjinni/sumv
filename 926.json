@@ -2,7 +2,7 @@
 	"wallpaper": "https://drpy.owen10086.repl.co/pics",
 	"dr_count": 42,
 	"mode": 2,
-	"spider": "https://ghproxy.com/https://raw.githubusercontent.com/alexjinni/sumv/main/.jar",
+	"spider": "https://ghproxy.com/https://raw.githubusercontent.com/alexjinni/sumv/main/custom_spider.jar",
 	"drives": [
 	 {
 	  "name": "🦀9T(Adult)",
@@ -3775,7 +3775,7 @@
 	   {
 		"name": "直播",
 		"urls": [
-		 "proxy://do=live&type=txt&ext=aHR0cHM6Ly9kcnB5Lm93ZW4xMDA4Ni5yZXBsLmNvL2xpdmVz"
+		 "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYWxleGppbm5pL3N1bXYvbWFpbi9saXZlLnR4dA=="
 		]
 	   }
 	  ]
