@@ -456,9 +456,21 @@
 	 "parses": [
 	{"name": "解析聚合","type": 3,"url": "Demo"}, 
 	{"name": "Json并发","type": 2,"url": "Parallel"}, {"name": "Json轮询","type": 2,"url": "Sequence"}, 
-	{"name": "爱酷嗅探","type": 0,"url": "https://jx.zhanlangbu.com/?url="},
+	//403 Forbidden
+	{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
+   //200 OK
+{"name": "白嫖1","type": 1,"url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url=","ext": {"flag": ["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
 	//200 OK
-	{"name":"☑江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url="},
+{"name": "freejson","type": 0,"url": "https://h5.freejson.xyz/player/?url="},
+//200 OK
+{"name": "懒懒1","type": 1,"url": "http://123.57.56.94:9931/lanlan/?url="},
+//200 OK
+{"name": "EXO","type": 0,"url": "https://rx.69mj.com/?url=","ext": {"flag": ["rx","qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果"]}},
+//200 OK
+{"name": "懒懒2","type": 1,"url": "http://lanlan.ckflv.cn/?url=","ext": {"flag": ["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
+{"name": "爱酷嗅探","type": 0,"url": "https://jx.zhanlangbu.com/?url="},
+    //200 OK
+	//{"name":"☑江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url="},
 	//200 OK
 	{"name":"解析OKjx综合","type":0,"url":"https://okjx.cc/?url="},
 	//200 OK
@@ -466,7 +478,7 @@
 	//200 OK
 	{"name": "解析13","type": 0,"url": "http://api.wpsseo.cn/?v="},
 	//200 OK
-	{"name": "GGTV搜集","type": 1,"url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
+	//{"name": "GGTV搜集","type": 1,"url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
 	//200 OK
 	{"name": "GGTV自用","type": 1,"url": "https://vip.fuqizhishi.com/?v="},
 	//400{"name":"☑快速直解","type":1,"url":"https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe&url="},
@@ -539,9 +551,7 @@
 	{"name":"miao222","type":1,"url":"https://www.administratorw.com/admin.php?url="},
 	{"name":"miao333","type":1,"url":"https://jx.ergan.top/?url="},
 	{"name":"miao444","type":1,"url":"http://okjx.cc/?url="},
-	//403 Forbidden
-	{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
-	//200 OK
+    //200 OK
 	{"name":"神2","type":0,"url":"https://h5.freejson.xyz/player/?url="},
 	//200 OK
 	{"name":"神3","type":1,"url":"http://api.ckflv.cn/?url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
