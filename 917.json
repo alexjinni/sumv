@@ -1560,8 +1560,6 @@
 {"name": "Json并发","type": 2,"url": "Parallel"}, {"name": "Json轮询","type": 2,"url": "Sequence"}, 
 {"name": "爱酷嗅探","type": 0,"url": "https://jx.zhanlangbu.com/?url="},
 //200 OK
-{"name":"☑江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url="},
-//200 OK
 {"name":"解析OKjx综合","type":0,"url":"https://okjx.cc/?url="},
 //200 OK
 {"name": "解析12","type": 0,"url": "http://www.ckmov.vip/api.php?url="},
