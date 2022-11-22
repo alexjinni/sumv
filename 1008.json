@@ -457,7 +457,40 @@
 	{"name":"解析聚合","type":3,"url":"Demo"}, 
 	{"name":"Json并发","type":2,"url":"Parallel"}, 
 	{"name":"Json轮询","type":1,"url":"Sequence"}, 
-//200 OK
+	//200 OK测试OK
+	{"name":"刚佬解析","type":1,"url":"https://play.fuqizhishi.com/jx2/API.php?appkey=iiiixiaobai&url="},
+	//200 OK---解析不了
+	{"name":"肥猫解析2","type":1,"url":"http://jx.vipmv.co/json.php?token=123457&url="},
+	//200 OK
+	{"name":"白嫖1","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
+	//200 OK
+	{"name":"freejson","type":0,"url":"https://h5.freejson.xyz/player/?url="},
+	//200 OK
+	{"name":"懒懒1","type":1,"url":"http://123.57.56.94:9931/lanlan/?url="},
+	//200 OK测试OK
+	{"name":"懒懒2","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
+	{"name":"爱酷嗅探","type":0,"url":"https://jx.zhanlangbu.com/?url="},
+    //200 OK
+	{"name":"☑钢铁侠","type":1,"url":"https://json.freejx.in/?url="},
+	//200 OK
+	{"name":"虾米备用","type":0,"url":"https://dm.xmflv.com:4433/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","奇艺","pptv","le","letv","sohu","pptv","PPTV","bilibili","xigua","1905"]}},
+	//403 Forbidden--无法打开
+	{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
+	//200 OK
+	{"name":"rx2","type":1,"url":"http://rxjx.kuanjv.com/allm3u8.php?url="},
+	//200 OK
+	{"name":"扶风","type":1,"url":"https://www.1920lgzy.top/json.php?url=","ext":{"header":{"User-Agent":"Mozilla/5.0"}}},
+	//200 OK
+	{"name":"宝盒TV","type":1,"url":"https://jx.52ruo.cc/json/?id=6&url="},
+	//200 OK
+	{"name":"左岸","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=cqrtwyACDGLOXY0249&mgtv=app&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","CL4K","renrenmi","ltnb","bilibili","1905","xigua"]}},
+	//200 OK--无法打开
+	{"name":"xifanys","type":1,"url":"http://www.pandown.pro/app/tkys/tkysjx.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","rx","ltnb","bilibili","1905","xigua"]}},
+	//200 OK--无法打开
+	{"name":"酷享影视","type":1,"url":"http://pandown.pro/app/kxjx.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","CL4K","renrenmi","ltnb","bilibili","1905","xigua"]}},
+	//200 OK--无法打开
+	{"name":"江湖","type":1,"url":"http://pandown.pro/app/ysmjx.php?url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905","优播线路","腾播线路"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
+	//200 OK
 //{"name":"☑云you","type":1,"url":"http://chaloli.cn/home/api?type=ys&uid=1&key=dfgilnotuyDGHMQW34&url="},
 //404 Not Found
 //{"name":"juhe","type":1,"url":"https://play.fuqizhishi.com/juhe/api.php?appkey=caijijuhe220902&url="},
@@ -487,22 +520,9 @@
 	{"name":"💋So丶","type":0,"url":"https://tljiaqing.nde.tw/m3u8/?url="},
 	//200测试OK
 	{"name":"Q1解析","type":1,"url":"http://150.158.175.250:88/parse/sign/f9eec288fdae85420df3ce01e62891e2?url=","header":{"User-Agent":"Mozilla/5.0"}},
-	//200 OK测试OK
-	{"name":"刚佬解析","type":1,"url":"https://play.fuqizhishi.com/jx2/API.php?appkey=iiiixiaobai&url="},
-	//200 OK---解析不了
-	{"name":"肥猫解析2","type":1,"url":"http://jx.vipmv.co/json.php?token=123457&url="},
-	//200 OK
-	{"name":"白嫖1","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=233711&key=dgilouvFKNRSWX2467&url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
-	//200 OK
-	{"name":"freejson","type":0,"url":"https://h5.freejson.xyz/player/?url="},
-	//200 OK
-	{"name":"懒懒1","type":1,"url":"http://123.57.56.94:9931/lanlan/?url="},
 	//200 OK-aiqiyi无法解析
 	{"name":"EXO","type":0,"url":"https://rx.69mj.com/?url=","ext":{"flag":["rx","qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果"]}},
-	//200 OK测试OK
-	{"name":"懒懒2","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
-	{"name":"爱酷嗅探","type":0,"url":"https://jx.zhanlangbu.com/?url="},
-    //200 OK
+	//200 OK
 	//{"name":"☑江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url="},
 	//200 OK测试OK
 	{"name":"解析OKjx综合","type":0,"url":"https://okjx.cc/?url="},
@@ -517,8 +537,6 @@
 	//400{"name":"☑快速直解","type":1,"url":"https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe&url="},
 	//200 OK
 	//{"name":"懒人","type":1,"url":"http://120.53.102.254/jx1/jx73.php?url="},
-	//200 OK
-	{"name":"☑钢铁侠","type":1,"url":"https://json.freejx.in/?url="},
 	//200 OK
 	//{"name":"☑爱酷","type":1,"url":"https://jx.zhanlangbu.com/API.php?appkey=53df3aa2fdb66bcbc4d05730b6fbfc71&url="},
 	//200 OK
@@ -621,12 +639,8 @@
 	//200 OK
 	{"name":"解析虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","奇艺","pptv","le","letv","sohu","pptv","PPTV","bilibili","xigua","1905"]}},
 	//200 OK
-	{"name":"虾米备用","type":0,"url":"https://dm.xmflv.com:4433/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","奇艺","pptv","le","letv","sohu","pptv","PPTV","bilibili","xigua","1905"]}},
-	//200 OK
 	{"name":"web1","type":0,"url":"https://www.nxflv.com/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺","sohu","letv"]}},
-	//403 Forbidden
-	{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
-    //200 OK
+	//200 OK
 	//{"name":"M117","type":0,"url":"http://1.117.152.239:39000/?url="},
 	//200 OK
 	//{"name":"miao","type":0,"url":"https://jx.58g8.com/1/?url=","ext":{"flag":["miaoparty"]}},
@@ -736,7 +750,7 @@
 	//200 OK
 	{"name":"解51","type":1,"url":"http://www.ikukk.com/?url="},
 	//200 OK
-	{"name":"解57","type":1,"url":"https://www.xymav.com/?url="},
+	{"name":"七彩","type":1,"url":"https://www.xymav.com/?url="},
 	//200 OK
 	{"name":"解58","type":1,"url":"https://9kjx.com/?url="},
 	//200 OK
