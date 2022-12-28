@@ -449,11 +449,21 @@
 	{"name":"解析聚合","type":3,"url":"Demo"}, 
 	{"name":"Json并发","type":2,"url":"Parallel"}, 
 	{"name":"Json轮询","type":1,"url":"Sequence"}, 
+	//200 OK
+	{"name":"刚刚走过","type":1,"url":"http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url="},
+	//200 OK
+	{"name":"未知2","type":1,"url":"http://45.248.10.163:4433/json.php?wap=0&url="},
+	{"name":"全能解析","type": 1,"url": "https://293.6ys6.top/alypjx.php?url="},
+	{"name":"CN_chaloli","type":1,"url":"https://chaloli.cn/api/?key=835b853780c8be489a4eab04a67faf31&url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
+	//200 OK
+	{"name":"255解析","type":1,"url":"http://47.108.39.237:55/api/?key=JBM14sRtNxvvF0yqiB&url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+	//200 OK
+	{"name":"777播放器","type":0,"url":"https://jx.777jiexi.com/player/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
 	{"name":"t7g","type":1,"url":"https://jx.t7g.cn/?url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
   	//200测试OK
-	{"name":"Q1解析","type":1,"url":"http://150.158.175.250:88/parse/sign/002c0bbc19f887b2e8e485b06cc9fc4a?url=","header":{"User-Agent":"Mozilla/5.0"}},
+	{"name":"Q1解析","type":1,"url":"http://150.158.175.250:88/parse/sign/9f511daed8c7b6d9c45234c6651758fb?url=","header":{"User-Agent":"Mozilla/5.0"}},
   	//403 Forbidden--有时无法打开
-	{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
+	//{"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
   	//200 OK
   	{"name":"bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":""}}},
 	//200 OK测试OK
@@ -465,7 +475,7 @@
 	//200 OK
 	{"name":"freejson","type":0,"url":"https://h5.freejson.xyz/player/?url="},
 	//200 OK
-	{"name":"懒懒1","type":1,"url":"http://123.57.56.94:9931/lanlan/?url="},
+	//{"name":"懒懒1","type":1,"url":"http://123.57.56.94:9931/lanlan/?url="},
 	//200 OK测试OK
 	{"name":"懒懒2","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
 	{"name":"爱酷嗅探","type":0,"url":"https://jx.zhanlangbu.com/?url="},
@@ -805,7 +815,7 @@
 ],
 	"flags":["imgo","youku","qq","iqiyi","qiyi","fun","letv","leshi","sohu","tudou","xigua","cntv","1905","pptv","mgtv","wasu","bilibili","renrenmi"],
 	"hotSearch":[{ "name":"mobilesearch", "request":{  "method":"GET",  "header":[{ "key":"Referer", "value":"https://drpy.owen10086.repl.co"}  ],  "url":{"raw":"https://drpy.owen10086.repl.co/hotsugg?t={time}"  } }, "response":{  "result":"$.data",  "data":[{ "key":"keyword", "value":"title"}  ] }}],
-	"lives":[{ "group":"redirect", "channels":[  {"name":"直播","urls":[ "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYWxleGppbm5pL3N1bXYvbWFpbi9saXZlLnR4dA=="]  } ]}],
+	"lives":[{ "group":"redirect", "channels":[  {"name":"直播","urls":[ "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL2thcGlvbmhhdS9MUy9ibG9iLzVhYzU4MDEyOWFmMTQzZmNmODhmMDA5OGQ0MThhN2IzMjBkMzFlMWEvQ04yRC50eHQ="]  } ]}],
 	"sniffer":{"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27","isVideoFormat":"http((?!http).){26,}\\.(m3u8|mp4|flv|avi|mkv|wmv|mpg|mpeg|mov|ts|3gp|rm|rmvb|asf|m4a|mp3|wma)","custom":[ {  "url":"/Cloud/Down/AliCloud/",  "mimeType":"text/html",  "encoding":"utf-8",  "header":{"Referer":"https://zxzj.vip/"  } }]},
 	"recommend":[{ "name":"豆瓣推荐", "request":{  "method":"GET",  "header":[{ "key":"Referer", "value":"https://movie.douban.com/"}  ],  "url":{"raw":"https://movie.douban.com/j/new_search_subjects?sort=U&range=0,10&tags=&playable=1&start=0&year_range=2022,2022"  } }, "response":{  "result":"$.data",  "data":[{ "key":"name", "value":"title"},{ "key":"note", "value":"rate"},{ "key":"pic", "value":"cover"}  ] }, "expires":"86400"}],
 	"rating":[{ "name":"rating", "request":{  "method":"GET",  "url":{"raw":"https://api.wmdb.tv/api/v1/movie/search?q={name}&limit=1"  } }, "response":{  "result":"this",  "data":[{ "key":"rating", "value":"doubanRating"}  ] }}],
